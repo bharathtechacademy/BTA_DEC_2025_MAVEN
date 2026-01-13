@@ -7,8 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
-
-		<!--selenium-java for web-automation -->
+		<!-- selenium-java for web automation-->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -34,6 +33,20 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>5.5.1</version>
+		</dependency>
+
+		<!-- postgresql to connect with DB-->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.8</version>
+		</dependency>
+
+		<!-- testng for framework support and assertions -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.11.0</version>
 		</dependency>
 
 	</dependencies>
