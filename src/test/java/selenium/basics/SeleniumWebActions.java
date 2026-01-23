@@ -7,6 +7,7 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -228,6 +229,9 @@ public class SeleniumWebActions {
 		
 //		Upload the file by specifying the file path.
 		uploadElement.sendKeys("C:\\path\\to\\your\\file.txt");
+		
+		/*********************ALERT HANDLING ACTIONS*********************/
+		Alert alert = driver.switchTo().alert();
 		
 	}
 
